@@ -1,0 +1,13 @@
+* Orbit One
+This is schematics for hand-made keyboard.
+
+- Unified body, no split
+- 17mm pitch
+- Have encoders, and touch pad
+- Acrile Gasket mount case
+
+
+* PCB Data
+This project uses kicad and PCB Data opened below.
+
+- https://github.com/Salicylic-acid3/PCB_Data
