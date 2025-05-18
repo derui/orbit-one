@@ -2929,16 +2929,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 60.96) (xy 93.98 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d4bb60b-28c9-4194-af0b-fd3e854b4114")
-	)
-	(wire
-		(pts
 			(xy 142.24 111.76) (xy 142.24 115.57)
 		)
 		(stroke
@@ -3086,6 +3076,36 @@
 			(type default)
 		)
 		(uuid "30501c1d-5f9b-460e-92e4-66b1d58f9398")
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338cea77-3b37-4139-8534-a8c24d77964e")
+	)
+	(wire
+		(pts
+			(xy 93.98 59.69) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340e194a-8e9f-4671-ab77-5992583a1771")
+	)
+	(wire
+		(pts
+			(xy 105.41 60.96) (xy 87.63 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7bfe58-1183-4d23-8125-90ed63681ecf")
 	)
 	(wire
 		(pts
@@ -3356,16 +3376,6 @@
 			(type default)
 		)
 		(uuid "682fdf86-f1d7-441f-990e-e1175333c9e8")
-	)
-	(wire
-		(pts
-			(xy 87.63 68.58) (xy 87.63 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f9b0ff-1dad-4041-8cf9-8d99b9601041")
 	)
 	(wire
 		(pts
@@ -3806,16 +3816,6 @@
 			(type default)
 		)
 		(uuid "a3909940-b7d2-436d-bdcd-02ca9185d9fc")
-	)
-	(wire
-		(pts
-			(xy 105.41 68.58) (xy 87.63 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3f256b5-4603-41b6-954a-44919e255daf")
 	)
 	(wire
 		(pts
@@ -4279,16 +4279,6 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 60.96) (xy 93.98 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de389282-e4df-440e-9223-1501c39556a7")
-	)
-	(wire
-		(pts
 			(xy 71.12 199.39) (xy 45.72 199.39)
 		)
 		(stroke
@@ -4306,6 +4296,16 @@
 			(type default)
 		)
 		(uuid "df2470eb-be42-4d2f-ae7b-e6ac75c580cd")
+	)
+	(wire
+		(pts
+			(xy 87.63 60.96) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfba0e46-d763-432f-bb3c-89946b9650b0")
 	)
 	(wire
 		(pts
@@ -4865,28 +4865,6 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 105.41 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "636e3abd-3a7e-4ee3-8de9-d539bc5c449a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9172 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
 		(at 43.18 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4986,28 +4964,6 @@
 		(uuid "7b7795e9-5844-421b-ba37-2df6fb941967")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 186.4263 252.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 105.41 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81a8a6fb-2d1f-4476-828e-dca3779026f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.8567 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,6 +5189,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 105.41 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a52b2077-57d3-4ec9-bba6-3bf569ca12a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.8567 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5611,6 +5589,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 105.41 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9ad6ec0-64d5-40f8-aba1-debbf38fc527")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.9172 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 251.46 139.7 0)
@@ -5621,7 +5621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01ee3c6f-6b29-464f-849e-1b231517ec42")
-		(property "Reference" "SW39"
+		(property "Reference" "SW35"
 			(at 251.46 132.08 0)
 			(effects
 				(font
@@ -5673,7 +5673,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW39")
+					(reference "SW35")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04357100-d96a-43f9-8128-cdd475f77001")
-		(property "Reference" "D39"
+		(property "Reference" "D37"
 			(at 271.78 121.9201 90)
 			(effects
 				(font
@@ -5760,7 +5760,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D39")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -5776,7 +5776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "131fe789-ae8a-49f0-abd1-e87d413cbdeb")
-		(property "Reference" "D23"
+		(property "Reference" "D22"
 			(at 205.74 119.3799 90)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D23")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -6039,7 +6039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1778b64b-e8ba-4dc1-a27a-d2929b0bfbcc")
-		(property "Reference" "D26"
+		(property "Reference" "D25"
 			(at 205.74 191.7699 90)
 			(effects
 				(font
@@ -6111,7 +6111,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D26")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -6212,7 +6212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad-lib:AE-XCL102D333CR-G"
+		(property "Footprint" "kbd_Parts:Micon_BMP_7sKB"
 			(at 60.96 39.37 0)
 			(effects
 				(font
@@ -6336,7 +6336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bcedff9-80f9-4819-b3df-42bfec254728")
-		(property "Reference" "SW38"
+		(property "Reference" "SW34"
 			(at 251.46 105.41 0)
 			(effects
 				(font
@@ -6388,7 +6388,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW38")
+					(reference "SW34")
 					(unit 1)
 				)
 			)
@@ -6404,7 +6404,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f0a0db3-de62-468d-a1b3-805d3b1c72c1")
-		(property "Reference" "SW32"
+		(property "Reference" "SW29"
 			(at 215.9 177.8 0)
 			(effects
 				(font
@@ -6456,7 +6456,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW32")
+					(reference "SW29")
 					(unit 1)
 				)
 			)
@@ -6472,7 +6472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25c7c20c-fc7f-4aad-9cc0-846aad11b9a0")
-		(property "Reference" "D38"
+		(property "Reference" "D36"
 			(at 259.08 168.9099 90)
 			(effects
 				(font
@@ -6544,7 +6544,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D38")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -6628,7 +6628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e05c33-5ab9-4180-967b-5d4ccf16ea54")
-		(property "Reference" "D28"
+		(property "Reference" "D27"
 			(at 223.52 146.0499 90)
 			(effects
 				(font
@@ -6700,7 +6700,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D28")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -6716,7 +6716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a52d389-733c-4911-a2d8-39cf3be4bf21")
-		(property "Reference" "D27"
+		(property "Reference" "D26"
 			(at 223.52 119.3799 90)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D27")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -6804,7 +6804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "300c8659-54fa-4788-af16-24959a132bc4")
-		(property "Reference" "SW19"
+		(property "Reference" "SW45"
 			(at 152.4 240.03 0)
 			(effects
 				(font
@@ -6865,7 +6865,7 @@
 		(instances
 			(project ""
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW19")
+					(reference "SW45")
 					(unit 1)
 				)
 			)
@@ -6949,7 +6949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "323c99fb-9b1c-4147-86af-cc052d73de57")
-		(property "Reference" "D24"
+		(property "Reference" "D23"
 			(at 205.74 146.0499 90)
 			(effects
 				(font
@@ -7021,7 +7021,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D24")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -7279,7 +7279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37516c26-7cb6-4026-ba3a-0cb4071effc5")
-		(property "Reference" "SW40"
+		(property "Reference" "SW36"
 			(at 251.46 154.94 0)
 			(effects
 				(font
@@ -7331,7 +7331,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW40")
+					(reference "SW36")
 					(unit 1)
 				)
 			)
@@ -7501,7 +7501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cc51244-d8b7-4d07-9f58-ede752154717")
-		(property "Reference" "D44"
+		(property "Reference" "D42"
 			(at 295.91 168.9099 90)
 			(effects
 				(font
@@ -7573,7 +7573,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D44")
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -7812,7 +7812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44c22c0c-89c7-4cf1-9ea5-b51dcd71c021")
-		(property "Reference" "D30"
+		(property "Reference" "D29"
 			(at 218.44 194.3101 90)
 			(effects
 				(font
@@ -7884,7 +7884,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D30")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -8407,7 +8407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "543f5ed7-d91a-41ec-a2ce-99c67ccf1c0d")
-		(property "Reference" "SW36"
+		(property "Reference" "SW32"
 			(at 233.68 154.94 0)
 			(effects
 				(font
@@ -8459,7 +8459,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW36")
+					(reference "SW32")
 					(unit 1)
 				)
 			)
@@ -8475,7 +8475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a1e07b3-2388-4092-92d3-c0fc261b55cd")
-		(property "Reference" "D35"
+		(property "Reference" "D33"
 			(at 241.3 191.7699 90)
 			(effects
 				(font
@@ -8547,7 +8547,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D35")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -8718,7 +8718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62937ff7-cf80-4abc-97b6-331c67b88661")
-		(property "Reference" "SW27"
+		(property "Reference" "SW25"
 			(at 198.12 177.8 0)
 			(effects
 				(font
@@ -8770,7 +8770,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW27")
+					(reference "SW25")
 					(unit 1)
 				)
 			)
@@ -9078,7 +9078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67ca1f8d-caeb-4650-bd5c-33e6d82843ea")
-		(property "Reference" "SW42"
+		(property "Reference" "SW38"
 			(at 269.24 132.08 0)
 			(effects
 				(font
@@ -9130,7 +9130,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW42")
+					(reference "SW38")
 					(unit 1)
 				)
 			)
@@ -9222,7 +9222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b56226e-b851-4ba0-985f-f92d4c1809b3")
-		(property "Reference" "SW46"
+		(property "Reference" "SW42"
 			(at 288.29 154.94 0)
 			(effects
 				(font
@@ -9274,7 +9274,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW46")
+					(reference "SW42")
 					(unit 1)
 				)
 			)
@@ -9290,7 +9290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7109e996-2c3a-4141-8b5c-32312b093c4c")
-		(property "Reference" "SW44"
+		(property "Reference" "SW40"
 			(at 288.29 105.41 0)
 			(effects
 				(font
@@ -9342,7 +9342,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW44")
+					(reference "SW40")
 					(unit 1)
 				)
 			)
@@ -9358,7 +9358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "724c2500-025a-41d6-87d7-4eb4a7785f0f")
-		(property "Reference" "SW28"
+		(property "Reference" "SW46"
 			(at 212.09 240.03 0)
 			(effects
 				(font
@@ -9419,7 +9419,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW28")
+					(reference "SW46")
 					(unit 1)
 				)
 			)
@@ -9589,7 +9589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "769efa50-125d-48c5-95bb-979c8ec530fa")
-		(property "Reference" "SW29"
+		(property "Reference" "SW26"
 			(at 215.9 105.41 0)
 			(effects
 				(font
@@ -9641,7 +9641,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW29")
+					(reference "SW26")
 					(unit 1)
 				)
 			)
@@ -9657,7 +9657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7752ac9c-8394-4380-bd3a-b4beb8bb30f7")
-		(property "Reference" "SW34"
+		(property "Reference" "SW30"
 			(at 233.68 105.41 0)
 			(effects
 				(font
@@ -9709,7 +9709,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW34")
+					(reference "SW30")
 					(unit 1)
 				)
 			)
@@ -9725,7 +9725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77f35c9b-cd34-4e49-924c-bb4f99c9a91b")
-		(property "Reference" "D22"
+		(property "Reference" "D45"
 			(at 167.64 246.38 0)
 			(effects
 				(font
@@ -9795,7 +9795,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D22")
+					(reference "D45")
 					(unit 1)
 				)
 			)
@@ -9899,7 +9899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83206795-e42a-41d7-b1ed-e2f7017caa38")
-		(property "Reference" "SW26"
+		(property "Reference" "SW24"
 			(at 198.12 154.94 0)
 			(effects
 				(font
@@ -9951,7 +9951,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW26")
+					(reference "SW24")
 					(unit 1)
 				)
 			)
@@ -10055,7 +10055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "898512ae-e004-47de-aa9b-84aa5d7eb052")
-		(property "Reference" "SW43"
+		(property "Reference" "SW39"
 			(at 269.24 154.94 0)
 			(effects
 				(font
@@ -10107,7 +10107,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW43")
+					(reference "SW39")
 					(unit 1)
 				)
 			)
@@ -10189,7 +10189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8daac8a0-4d4d-4e69-8dff-6f53b9f96fb1")
-		(property "Reference" "D43"
+		(property "Reference" "D41"
 			(at 295.91 146.0499 90)
 			(effects
 				(font
@@ -10261,7 +10261,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D43")
+					(reference "D41")
 					(unit 1)
 				)
 			)
@@ -10431,7 +10431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9213a02e-aa60-47f7-8c10-3846bcb11b43")
-		(property "Reference" "SW30"
+		(property "Reference" "SW27"
 			(at 215.9 132.08 0)
 			(effects
 				(font
@@ -10483,7 +10483,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW30")
+					(reference "SW27")
 					(unit 1)
 				)
 			)
@@ -10723,7 +10723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97351d10-41f7-4119-a9a0-2e8945d7a92d")
-		(property "Reference" "D25"
+		(property "Reference" "D24"
 			(at 205.74 168.9099 90)
 			(effects
 				(font
@@ -10795,7 +10795,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D25")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -10811,7 +10811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e54ac8-d996-4b05-b49a-ab9b1e1dfcb7")
-		(property "Reference" "D29"
+		(property "Reference" "D28"
 			(at 223.52 168.9099 90)
 			(effects
 				(font
@@ -10883,7 +10883,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D29")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -10965,7 +10965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0bbb8b6-9abb-4534-8f73-cd2a39b5d271")
-		(property "Reference" "D31"
+		(property "Reference" "D46"
 			(at 227.33 246.38 0)
 			(effects
 				(font
@@ -11035,7 +11035,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D31")
+					(reference "D46")
 					(unit 1)
 				)
 			)
@@ -11051,7 +11051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ae7d3c-f634-4c61-ab25-d86f71870528")
-		(property "Reference" "SW31"
+		(property "Reference" "SW28"
 			(at 215.9 154.94 0)
 			(effects
 				(font
@@ -11103,7 +11103,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW31")
+					(reference "SW28")
 					(unit 1)
 				)
 			)
@@ -11255,7 +11255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a65d3893-15b2-4226-b4ca-12a7695018c5")
-		(property "Reference" "D32"
+		(property "Reference" "D30"
 			(at 241.3 119.3799 90)
 			(effects
 				(font
@@ -11327,7 +11327,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D32")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -11431,7 +11431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a98de7e2-3621-4856-ba29-292c9cd8470b")
-		(property "Reference" "SW22"
+		(property "Reference" "SW20"
 			(at 156.21 134.62 0)
 			(effects
 				(font
@@ -11483,7 +11483,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW22")
+					(reference "SW20")
 					(unit 1)
 				)
 			)
@@ -11567,7 +11567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aac6332d-fe61-42c2-9d6d-a9125c704959")
-		(property "Reference" "SW41"
+		(property "Reference" "SW37"
 			(at 269.24 105.41 0)
 			(effects
 				(font
@@ -11619,7 +11619,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW41")
+					(reference "SW37")
 					(unit 1)
 				)
 			)
@@ -11635,7 +11635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad69a8d4-3d72-4702-8091-5f687ae647a6")
-		(property "Reference" "SW45"
+		(property "Reference" "SW41"
 			(at 288.29 132.08 0)
 			(effects
 				(font
@@ -11687,7 +11687,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW45")
+					(reference "SW41")
 					(unit 1)
 				)
 			)
@@ -11769,7 +11769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b20c5d96-7a0d-4015-9434-4a0761ebbdec")
-		(property "Reference" "SW24"
+		(property "Reference" "SW22"
 			(at 198.12 105.41 0)
 			(effects
 				(font
@@ -11821,7 +11821,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW24")
+					(reference "SW22")
 					(unit 1)
 				)
 			)
@@ -11837,7 +11837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b394cdb1-46ca-43af-89bd-345f5995d931")
-		(property "Reference" "D33"
+		(property "Reference" "D31"
 			(at 241.3 146.0499 90)
 			(effects
 				(font
@@ -11909,7 +11909,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D33")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -12005,7 +12005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba9581fa-eb30-4910-a327-f11f4959e0ca")
-		(property "Reference" "D42"
+		(property "Reference" "D40"
 			(at 295.91 119.3799 90)
 			(effects
 				(font
@@ -12077,7 +12077,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D42")
+					(reference "D40")
 					(unit 1)
 				)
 			)
@@ -12092,7 +12092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb05d056-22cf-4aa4-94eb-0f931bddcd7e")
-		(property "Reference" "D40"
+		(property "Reference" "D38"
 			(at 271.78 148.5901 90)
 			(effects
 				(font
@@ -12164,7 +12164,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D40")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -12180,7 +12180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb82f130-787e-4b9c-b65d-e7c673a63a8e")
-		(property "Reference" "SW25"
+		(property "Reference" "SW23"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -12232,7 +12232,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW25")
+					(reference "SW23")
 					(unit 1)
 				)
 			)
@@ -12313,7 +12313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c411fc5f-3ea4-4d02-b78f-4202cd12ad7d")
-		(property "Reference" "D41"
+		(property "Reference" "D39"
 			(at 271.78 171.4501 90)
 			(effects
 				(font
@@ -12385,7 +12385,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D41")
+					(reference "D39")
 					(unit 1)
 				)
 			)
@@ -12401,7 +12401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c75f2801-ce37-4ecb-badb-1b0c64c3c0b9")
-		(property "Reference" "D36"
+		(property "Reference" "D34"
 			(at 259.08 119.3799 90)
 			(effects
 				(font
@@ -12473,7 +12473,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D36")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -12625,7 +12625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d28b66be-7b1c-41f4-9c94-45dfd2fdc467")
-		(property "Reference" "SW23"
+		(property "Reference" "SW21"
 			(at 156.21 157.48 0)
 			(effects
 				(font
@@ -12677,7 +12677,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW23")
+					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -12759,7 +12759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8000c51-53c7-449c-9f78-0e75c8392617")
-		(property "Reference" "SW20"
+		(property "Reference" "SW47"
 			(at 154.94 21.59 0)
 			(effects
 				(font
@@ -12814,7 +12814,7 @@
 		(instances
 			(project ""
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW20")
+					(reference "SW47")
 					(unit 1)
 				)
 			)
@@ -12830,7 +12830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8f10130-9b6a-4977-b336-d910c40b2d19")
-		(property "Reference" "D34"
+		(property "Reference" "D32"
 			(at 241.3 168.9099 90)
 			(effects
 				(font
@@ -12902,7 +12902,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D34")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -12918,7 +12918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db766e58-33b9-45e1-923d-52599224c5c5")
-		(property "Reference" "D37"
+		(property "Reference" "D35"
 			(at 259.08 146.0499 90)
 			(effects
 				(font
@@ -12990,7 +12990,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "D37")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -13074,7 +13074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8c82fc-0f23-4a7d-898c-4ca5a46eb4d2")
-		(property "Reference" "SW33"
+		(property "Reference" "SW44"
 			(at 233.68 21.59 0)
 			(effects
 				(font
@@ -13090,7 +13090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kicad-lib:CherryMX-HotSwap-1u_17"
+		(property "Footprint" "kbd_Parts:ResetSW"
 			(at 233.68 24.13 0)
 			(effects
 				(font
@@ -13126,7 +13126,7 @@
 		(instances
 			(project ""
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW33")
+					(reference "SW44")
 					(unit 1)
 				)
 			)
@@ -13142,7 +13142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "deae8cd7-69d2-4bd4-ba08-0c1d1f538781")
-		(property "Reference" "SW21"
+		(property "Reference" "SW19"
 			(at 156.21 104.14 0)
 			(effects
 				(font
@@ -13194,7 +13194,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW21")
+					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -13432,7 +13432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f38869a7-62ba-4bad-b545-169301bd082c")
-		(property "Reference" "SW35"
+		(property "Reference" "SW31"
 			(at 233.68 132.08 0)
 			(effects
 				(font
@@ -13484,7 +13484,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW35")
+					(reference "SW31")
 					(unit 1)
 				)
 			)
@@ -13500,7 +13500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60f24dd-db50-4a6b-a679-926d1ccadf79")
-		(property "Reference" "SW37"
+		(property "Reference" "SW33"
 			(at 233.68 177.8 0)
 			(effects
 				(font
@@ -13552,7 +13552,7 @@
 		(instances
 			(project "assemble"
 				(path "/3bde1348-5ac1-4130-8742-e5aed0e7aea9"
-					(reference "SW37")
+					(reference "SW33")
 					(unit 1)
 				)
 			)
