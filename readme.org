@@ -4,7 +4,7 @@ This is schematics for hand-made keyboard.
 - Unified body, no split
 - 17mm pitch
 - Have encoders, and touch pad
-- Acrile Gasket mount case
+- Acryl Gasket mount case
 
 
 * PCB Data
