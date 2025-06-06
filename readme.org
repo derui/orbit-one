@@ -2,12 +2,16 @@
 This is schematics for hand-made keyboard.
 
 - Unified body, no split
-- 17mm pitch
-- Have encoders, and touch pad
+- Modified Alice Layout
+- 17mm key pitch
+- Have 2 encoders side by side
+- Installed glidepoint touch pad
 - Acryl Gasket mount case
 
 
 * PCB Data
 This project uses kicad and PCB Data opened below.
 
-- https://github.com/Salicylic-acid3/PCB_Data
+- https://github.com/Salicylic-acid3/KiCAD_FootPrint
+
+
