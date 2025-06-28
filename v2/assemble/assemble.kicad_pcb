@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../jclpcb/assemble/")
+			(outputdirectory "../jclpcb/")
 		)
 	)
 	(net 0 "")
@@ -2942,7 +2942,7 @@
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699998 -0.75)
+			(start 2.699997 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -2953,7 +2953,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699998 -0.75)
+			(end 2.699997 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3003,7 +3003,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699998 0.75)
+			(end -2.699997 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3012,7 +3012,7 @@
 			(uuid "7e769cc3-7df1-4e66-ae53-b509cf0e3d53")
 		)
 		(fp_line
-			(start -2.699998 0.75)
+			(start -2.699997 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -5419,28 +5419,6 @@
 			(layer "F.SilkS")
 			(uuid "59fe7740-fa6e-4de7-a2a4-38807f61f0f2")
 		)
-		(fp_circle
-			(center -9.155 -10.121)
-			(end -9.155 -10.375)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "90775fd9-2f66-4807-934d-45a26555674d")
-		)
-		(fp_circle
-			(center -7.881 -9.404)
-			(end -7.881 -9.658)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "568114bf-84d8-4fc4-9fb1-1a078dbf467d")
-		)
 		(fp_rect
 			(start -8.945 -10.55)
 			(end 8.855 10.4)
@@ -5462,17 +5440,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "5b534b85-27a6-4177-8d8e-1383fae5cc66")
-		)
-		(fp_circle
-			(center -7.861 -9.4)
-			(end -7.861 -9.654)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "26c741a3-59c7-4a63-8935-722bbfe90909")
 		)
 		(pad "1" smd roundrect
 			(at -8.11 -7.62)
@@ -13212,7 +13179,7 @@
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699998 0.75)
+			(start 2.699997 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -13223,7 +13190,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699998 -0.75)
+			(end -2.699997 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13273,7 +13240,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699998 0.75)
+			(end 2.699997 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13282,7 +13249,7 @@
 			(uuid "4b5f9919-1ac1-40a7-a2c7-e1b9e5868f94")
 		)
 		(fp_line
-			(start -2.699998 -0.75)
+			(start -2.699997 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -21967,7 +21934,7 @@
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699998 -0.75)
+			(start 2.699997 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -21978,7 +21945,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699998 -0.75)
+			(end 2.699997 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22028,7 +21995,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699998 0.75)
+			(end -2.699997 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -22037,7 +22004,7 @@
 			(uuid "f3149440-b61a-4fcc-a29c-a1ea1ec05194")
 		)
 		(fp_line
-			(start -2.699998 0.75)
+			(start -2.699997 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -25938,7 +25905,7 @@
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699998 -0.75)
+			(start 2.699997 -0.75)
 			(end -2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -25949,7 +25916,7 @@
 		)
 		(fp_line
 			(start 2.7 0.75)
-			(end 2.699998 -0.75)
+			(end 2.699997 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -25999,7 +25966,7 @@
 		)
 		(fp_line
 			(start -2.7 -0.75)
-			(end -2.699998 0.75)
+			(end -2.699997 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -26008,7 +25975,7 @@
 			(uuid "72f4b65b-90d7-486e-97ba-ba396bbc20fb")
 		)
 		(fp_line
-			(start -2.699998 0.75)
+			(start -2.699997 0.75)
 			(end 2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -30106,7 +30073,7 @@
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699998 0.75)
+			(start 2.699997 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -30117,7 +30084,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699998 -0.75)
+			(end -2.699997 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -30167,7 +30134,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699998 0.75)
+			(end 2.699997 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -30176,7 +30143,7 @@
 			(uuid "32299a8e-ee11-4af1-8b28-4bbd0127669c")
 		)
 		(fp_line
-			(start -2.699998 -0.75)
+			(start -2.699997 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -31682,7 +31649,7 @@
 		(sheetfile "assemble.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start 2.699998 0.75)
+			(start 2.699997 0.75)
 			(end 2.7 -0.75)
 			(stroke
 				(width 0.15)
@@ -31693,7 +31660,7 @@
 		)
 		(fp_line
 			(start 2.7 -0.75)
-			(end -2.699998 -0.75)
+			(end -2.699997 -0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -31743,7 +31710,7 @@
 		)
 		(fp_line
 			(start -2.7 0.75)
-			(end 2.699998 0.75)
+			(end 2.699997 0.75)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -31752,7 +31719,7 @@
 			(uuid "4f070cec-4576-40e0-9447-73f47fec358e")
 		)
 		(fp_line
-			(start -2.699998 -0.75)
+			(start -2.699997 -0.75)
 			(end -2.7 0.75)
 			(stroke
 				(width 0.15)
@@ -32382,28 +32349,6 @@
 			(layer "B.SilkS")
 			(uuid "3c89c8b0-ea4d-45cd-b2b2-4eaad50e57ef")
 		)
-		(fp_circle
-			(center -7.881 9.404)
-			(end -7.881 9.658)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.SilkS")
-			(uuid "3902bf8a-62e5-40af-bff2-8182bf5f376a")
-		)
-		(fp_circle
-			(center -9.155 10.121)
-			(end -9.155 10.375)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.SilkS")
-			(uuid "1a9c2147-6d96-4e5c-8cd4-ed7c4b48ccd1")
-		)
 		(fp_rect
 			(start -8.945 10.55)
 			(end 8.855 -10.4)
@@ -32425,17 +32370,6 @@
 			(fill no)
 			(layer "B.Fab")
 			(uuid "e2385fe0-9bce-4aae-86c3-9112175c9f80")
-		)
-		(fp_circle
-			(center -7.861 9.4)
-			(end -7.861 9.654)
-			(stroke
-				(width 0.5)
-				(type solid)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "a0d1e54d-076d-4a62-b964-008a045d54b6")
 		)
 		(pad "1" smd roundrect
 			(at -8.11 7.62 180)
@@ -33058,6 +32992,14 @@
 		(uuid "a067649c-40a8-4ead-9da6-fd5f63c208b2")
 	)
 	(segment
+		(start 150.4 58.2)
+		(end 150.4 57.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "2a7985c6-d861-450e-8f78-6897695e462f")
+	)
+	(segment
 		(start 151 42.2)
 		(end 152.8315 42.2)
 		(width 0.5)
@@ -33074,7 +33016,7 @@
 		(uuid "365226e7-1b94-447e-a7f5-f2b798767892")
 	)
 	(segment
-		(start 150.4 58.2)
+		(start 150.4 57.4)
 		(end 150.4 42.8)
 		(width 0.5)
 		(layer "F.Cu")
@@ -33099,11 +33041,19 @@
 	)
 	(segment
 		(start 150.4 58.2)
-		(end 133.8 58.2)
+		(end 149.6 58.2)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 5)
 		(uuid "69b162f8-7a72-4657-8358-49b661b5770f")
+	)
+	(segment
+		(start 149.6 58.2)
+		(end 150.4 57.4)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "8d06d142-ea6a-4736-a835-76661bae0439")
 	)
 	(segment
 		(start 150.4 42.8)
@@ -33136,6 +33086,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "e9dcd15a-7dc8-4856-a37e-e60ea02e3e6b")
+	)
+	(segment
+		(start 149.6 58.2)
+		(end 133.8 58.2)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "f0b206c9-8ca8-4787-bfb7-863435f37d6d")
 	)
 	(segment
 		(start 162.5 76.5)
